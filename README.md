@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html data-wf-page="62f545e1af7b5bda7529f769" data-wf-site="62f5450c6edd6e2b1429d906" lang="fa-IR" class="w-mod-js w-mod-touch wf-oswald-n7-active wf-oswald-n4-active wf-oswald-n5-active wf-oswald-n2-active wf-oswald-n6-active wf-oswald-n3-active wf-active w-mod-ix">
 <head>
 <style>
@@ -7,13 +6,12 @@ body {
     background-color: #ffffff;
     background-image: none;
     margin: 0;
-    overflow: hidden; /* جلوگیری از اسکرول صفحه اصلی */
-    -webkit-user-select: none; /* جلوگیری از انتخاب متن */
+    overflow: hidden;
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
-/* استایل دکمه پشتیبانی */
 .support-button {
     position: fixed;
     top: 20px;
@@ -32,42 +30,38 @@ body {
 .support-button:hover {
     background-color: #b52626;
 }
-/* استایل لایه تمام صفحه */
 .modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff; /* پس‌زمینه کاملاً سفید */
+    background-color: #ffffff;
     z-index: 1000;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px; /* فاصله داخلی برای محتوا */
+    padding: 20px;
 }
-/* اصلاح فاصله بین بخش‌ها */
 .page-padding-4, .page-padding-5, .section-layout210-2, .container-large-2 {
-    margin-bottom: 40px; /* فاصله بین بخش‌ها */
+    margin-bottom: 40px;
 }
 .w-layout-grid, .columns-6, .faq2_component {
-    gap: 20px; /* فاصله بین آیتم‌های گرید و ستون‌ها */
+    gap: 20px;
 }
 .w-col {
-    padding: 10px; /* فاصله داخلی برای ستون‌ها */
+    padding: 10px;
 }
 .faq2_accordion {
-    margin-bottom: 20px; /* فاصله بین سوالات متداول */
+    margin-bottom: 20px;
 }
-/* اصلاح استایل تصاویر */
 img {
     background: transparent !important;
     border: none !important;
-    pointer-events: none; /* غیرفعال کردن کلیک روی تصاویر */
+    pointer-events: none;
 }
-/* لایه محافظ برای تصاویر */
 .image-wrapper {
     position: relative;
     display: inline-block;
@@ -79,26 +73,38 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1; /* بالاتر از تصویر */
-    pointer-events: none; /* غیرفعال کردن تعامل */
+    z-index: 1;
+    pointer-events: none;
+}
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
+video {
+    border: 2px solid #cf2e2e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.text-under-video {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
 }
 </style>
 <meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"> <!-- غیرفعال کردن زوم -->
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" media="all">
 <script type="text/javascript">WebFont.load({google: {families: ["Oswald:200,300,400,500,600,700"]}});</script>
 <script type="text/javascript">
-    // جلوگیری از کپی متن و کلیک راست
-    document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-    });
-    document.addEventListener('copy', function(e) {
-        e.preventDefault();
-    });
-    document.addEventListener('cut', function(e) {
-        e.preventDefault();
-    });
+    document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
+    document.addEventListener('copy', function(e) { e.preventDefault(); });
+    document.addEventListener('cut', function(e) { e.preventDefault(); });
 </script>
 <link href="https://bridgefy.me/wp-content/themes/bridgefysdkbeta/assets/images/favicon.png?v=1661459368" rel="shortcut icon" type="image/x-icon">
 <link href="https://bridgefy.me/wp-content/themes/bridgefysdkbeta/assets/images/webclip.png?v=1661459368" rel="apple-touch-icon">
@@ -140,10 +146,7 @@ img {
 <script type="text/javascript" async src="//cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.6/mobile-detect.min.js"></script>
 </head>
 <body data-rsssl="1" class="page-template-default page page-id-2236 wp-custom-logo wp-embed-responsive body-3">
-<!-- دکمه پشتیبانی -->
 <a href="https://t.me/u0v0n" class="support-button" target="_blank">پشتیبانی</a>
-
-<!-- لایه تمام صفحه -->
 <div class="modal-overlay">
     <div class="page-padding-4 first hero">
         <div class="padding-vertical padding-xhuge">
@@ -159,7 +162,16 @@ img {
                         <h1 class="heading-8">پیام‌رسانی آفلاین</h1>
                     </div>
                     <div class="margin-bottom margin-medium">
-                        <p class="text-size-medium-4 hero bigger">بریج‌فای یک اپلیکیشن پیام‌رسان رایگان است که بدون نیاز به اینترنت کار می‌کند. درصورت قطعی اینترنت در کشور می‌توان به جای شبکه‌های اجتماعی مردم‌محور استفاده کرد.</p>
+                        <p class="text-size-medium-4 hero bigger">بریج‌فای یک پیام‌رسان است که با بلوتوث کار می‌کند.</p>
+                    </div>
+                    <div class="video-wrapper">
+                        <video controls controlsList="nodownload nofullscreen noremoteplayback" width="100%" style="max-width: 600px; border-radius: 10px;">
+                            <source src="https://uploadkon.ir/uploads/05b625_25VID-20250925-205552-331.mp4" type="video/mp4">
+                            مرورگر شما از پخش ویدئو پشتیبانی نمی‌کند.
+                        </video>
+                    </div>
+                    <div class="text-under-video">
+                        <p class="text-size-medium-4 hero">قبل نصب حتما کلیپ بالا را مشاهده کنید!</p>
                     </div>
                     <div class="image-wrapper">
                         <a id="w-node-_4ef18d40-b284-acbc-8d93-54a32f4479f6-7529f769" href="https://apps.apple.com/us/app/bridgefy/id975776347/?utm_source=bridgefy-website&amp;utm_medium=website-ios&amp;utm_campaign=home-ios&amp;utm_content=app-store" target="_blank" class="link-block w-inline-block" data-link="a-7666d959"><img loading="lazy" src="https://bridgefy.me/wp-content/themes/bridgefysdkbeta/assets/images/apple.png" alt="" data-img="in3befed45"></a>
@@ -225,7 +237,7 @@ img {
                                 <h2 class="heading-4">بریج‌فای چگونه کار می‌کند؟</h2>
                             </div>
                             <div class="margin-bottom margin-medium">
-                                <p class="text-size-medium-4 homee work" style="color: #646464;">دست بالا دست‌ها کاری کردن که این برنامه محدود بشه و در زمان ورود ارور بده اما با فیلترشکن میشه حساب کاربری ساخت. بعد از ساخت حساب کاربری دیگه نه نیاز به فیلترشکن هست نه اینترنت :)</p>
+                                <p class="text-size-medium-4 homee work" style="color: #646464;">برای ساخت حساب کاربری در بریج‌فای، ابتدا باید با استفاده از فیلترشکن به اپلیکیشن دسترسی پیدا کنید. پس از ایجاد حساب، دیگر نیازی به اینترنت یا فیلترشکن نیست و می‌توانید از طریق بلوتوث پیام ارسال کنید.</p>
                                 <p class="text-size-medium-4 homee uses" style="color: #646464;">در مواقعی که اینترنت قطع می‌شود، مانند بلایای طبیعی، اعتراضات یا محدودیت‌های شبکه، بریج‌فای به شما امکان می‌دهد با دیگران ارتباط برقرار کنید. این اپلیکیشن در ایران و سراسر جهان در شرایط بحرانی مورد استفاده قرار گرفته است. همین حالا آن را دانلود کنید تا برای مواقع قطعی اینترنت آماده باشید!</p>
                             </div>
                         </div>
@@ -287,20 +299,9 @@ img {
                     </div>
                 </div>
             </div>
-            <div style="margin-top: 0; background-image: none; background-color: #252525; text-align: center; padding: 20px;" class="footer2_component">
-                <div class="page-padding">
-                    <div class="container-large">
-                        <div class="padding-vertical padding-medium">
-                            <p class="text-size-medium-4" style="color: #ffffff;">ما توسعه‌دهنده نیستیم! برای درک بهتر با الگو گرفتن از سایت رسمی این سایت را برای مردم ایران ساختیم ❤</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
-
-<!-- محتوای اصلی (مخفی در پس‌زمینه) -->
 <div style="display: none;">
     <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="304f5298-9b37-4684-b9f9-d8dcf084f874" data-easing="ease" data-easing2="ease" role="banner" class="navbar1_component home donate w-nav">
         <div class="navbar1_container home">
@@ -311,7 +312,6 @@ img {
         </div>
     </div>
 </div>
-
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>
